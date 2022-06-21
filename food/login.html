@@ -1,0 +1,55 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-image: url('https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000'); 
+ 
+}  
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid black;   
+        box-sizing: border-box;   
+    }    
+    a{
+        position: relative;
+        left: 50%;
+        top: 50%;
+    }
+    a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: palevioletred;
+}   
+     
+ .container {   
+        position: relative;    
+    }   
+</style>   
+</head>    
+<body>    
+    <center> <h1>LOGIN</h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input id="name" type="text" placeholder="Enter Username" name="username" required>  
+            <label >Password : </label>   
+            <input id="pass" type="password" placeholder="Enter Password" name="password" required>  
+        </div>   
+    </form>    
+    <a id="sub" href="index.html">SUBMIT</a> 
+</body>     
+</html>  
