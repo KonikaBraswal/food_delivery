@@ -181,8 +181,8 @@ public class Main {
             // driver.findElement(By.id("")).click();
             if (driver.getTitle().contains("Instagram")) {
                 System.out.println("Instagram page test success");
-                driver.findElement(By.xpath("//input[contains(@aria-label, 'username')]")).sendKeys("7895510906");
-//                driver.findElement(By.name("password")).sendKeys("Sangeeta");
+                driver.findElement(By.xpath("//input[contains(@aria-label, 'username')]")).sendKeys("88888");
+//                driver.findElement(By.name("password")).sendKeys("*******");
 //                driver.findElement(By.xpath("//div[text()='Log In']")).click();
 
             } else {
